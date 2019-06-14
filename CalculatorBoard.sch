@@ -150,13 +150,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 2950 3350 2950
 Wire Wire Line
-	3350 2950 3350 3650
-Wire Wire Line
-	3350 3650 2550 3650
-Connection ~ 2550 3650
-Wire Wire Line
-	2550 3650 2500 3650
-Wire Wire Line
 	2550 3450 2700 3450
 Wire Wire Line
 	2700 3450 2700 2850
@@ -424,10 +417,7 @@ $EndComp
 Wire Wire Line
 	4000 5800 3750 5800
 Wire Wire Line
-	3350 3650 3350 5800
-Wire Wire Line
 	3350 5800 3450 5800
-Connection ~ 3350 3650
 $Comp
 L Device:Q_NPN_EBC Q8
 U 1 1 5D04DE64
@@ -1352,4 +1342,11 @@ Wire Wire Line
 Wire Wire Line
 	11400 6800 11400 7150
 Connection ~ 11400 7150
+Connection ~ 3350 3650
+Wire Wire Line
+	3350 3650 3350 5800
+Wire Wire Line
+	3350 2950 3350 3650
+Wire Wire Line
+	2550 3650 3350 3650
 $EndSCHEMATC
